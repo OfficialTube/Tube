@@ -10,3 +10,7 @@
     margin: auto;
     font-size: 60px;
 }
+.no-link {
+    text-decoration: none;
+    color: black;
+}
