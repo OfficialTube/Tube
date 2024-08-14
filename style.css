@@ -12,7 +12,26 @@
     font-size: 60px;
     display: block;
 }
+
 .no-link {
     text-decoration: none;
     color: black;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.main-page {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    min-width: 50%;
+    max-width: 750px;
+    height: 2.5rem;
+    display: block;
 }
