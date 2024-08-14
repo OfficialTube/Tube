@@ -1,4 +1,5 @@
 .link-box {
+    min-width: 50%;
     padding: 10px;
     max-width: 750px;
     height: auto;
@@ -9,6 +10,7 @@
     text-align: center;
     margin: auto;
     font-size: 60px;
+    display: block;
 }
 .no-link {
     text-decoration: none;
