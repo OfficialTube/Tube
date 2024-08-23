@@ -1,1 +1,5 @@
-document.getElementById("last-updated").innerHTML = new Date(document.lastModified);
+function trackLinkClick(category) {
+    gtag('event', 'click', {
+        'event_category': category
+    });
+}
