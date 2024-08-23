@@ -1,5 +1,6 @@
 // Function to send event data to Google Analytics
 function trackLinkClick(category) {
+    console.log('Tracking event with category:', category); // Debugging line
     gtag('event', 'click', {
         'event_category': category
     });
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', function() {
             // Use the link's title as the category
             const category = this.getAttribute('title') || 'Untitled Link';
+            console.log('Link clicked with title:', category); // Debugging line
             trackLinkClick(category);
         });
     });
