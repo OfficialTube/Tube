@@ -5,7 +5,7 @@
     height: auto;
     border-style: solid;
     border-width: 5px;
-    border-color: black;
+    border-color: white;
     border-radius: 50px;
     text-align: center;
     margin: auto;
@@ -15,16 +15,26 @@
 
 .no-link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 body {
     position: relative;
     min-height: 100vh;
+    display: block;
+    background-color: black;
 }
 
 .main-page {
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.footer {
+    min-width: 50%;
+    max-width: 750px;
+    height: auto;
+    margin: auto;
+    display: block;
 }
 
 footer {
@@ -33,5 +43,6 @@ footer {
     z-index: 0;
     min-width: 50%;
     max-width: 750px;
-    height: 4.5rem;
+    height: 3.5rem;
+    color: white;
 }
