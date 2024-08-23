@@ -8,10 +8,9 @@
     border-color: white;
     border-radius: 1000px;
     text-align: center;
-    margin: auto;
+    margin: 20px auto;
     font-size: 100px;
     display: block;
-    margin-bottom: 20px;
     align-items: center;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
@@ -21,15 +20,51 @@
     color: white;
 }
 
+html {
+    background-color: black;
+}
+
 body {
     position: relative;
     min-height: 100vh;
     display: block;
-    background-color: black;
+    padding: 20px;
 }
 
 .main-page {
     padding-bottom: 3.5rem;
+}
+
+.about-me {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    min-width: 50%;
+    max-width: 1080px;
+    height: auto;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 100px;
+    align-items: center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.about {
+    margin: auto;
+}
+
+.info {
+    font-size: 20px;
+}
+
+.pfp {
+    width: 40%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 1000px;
 }
 
 .footer {
@@ -59,6 +94,7 @@ footer {
     background-color: rgba(100, 65, 165, 1);
     font-weight: 600;
     -webkit-text-stroke: 5px black;
+    text-shadow: -10px 10px 0 black, -9px 9px 0 black, -8px 8px 0 black, -7px 7px 0 black, -6px 6px 0 black, -5px 5px 0 black, -4px 4px 0 black, -3px 3px 0 black;
 }
 
 .discord {
@@ -69,6 +105,7 @@ footer {
     background-color: rgba(255, 252, 0, 1);
     -webkit-text-stroke: 3px black;
     font-weight: 600;
+    text-shadow: none;
 }
 
 .tiktok {
