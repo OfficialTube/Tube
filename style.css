@@ -91,6 +91,14 @@ footer {
     background-color: rgba(255, 0, 0, 1);   
 }
 
+.youtube:hover::before {
+    content: "@official_tube";
+}
+
+.youtube::before {
+    content: "YouTube";
+}
+
 .twitch {
     background-color: rgba(100, 65, 165, 1);
     font-weight: 600;
@@ -98,8 +106,32 @@ footer {
     -webkit-text-stroke: 5px black;
 }
 
-.discord {
+.twitch:hover::before {
+    content: "official_tube";
+}
+
+.twitch::before {
+    content: "Twitch";
+}
+
+.discord, .discord-server {
     background-color: rgba(114, 137, 218 , 1);
+}
+
+.discord:hover::before {
+    content: "official_tube";
+}
+
+.discord::before {
+    content: "Discord";
+}
+
+.discord-server:hover::before {
+    content: "Gb6PTKhrX6";
+}
+
+.discord-server::before {
+    content: "Discord Server";
 }
 
 .snapchat {
@@ -108,13 +140,45 @@ footer {
     -webkit-text-stroke: 3px black;
 }
 
-.tiktok {
+.snapchat:hover::before {
+    content: "official_tube";
+}
+
+.snapchat::before {
+    content: "Snapchat";
+}
+
+.tiktok-main, .tiktok-singing {
     background-color: rgba(0, 0, 0, 1);
     text-shadow: -3px -3px 0 rgba(37, 244, 238), 3px 3px 0 rgba(254, 44, 85, 1);
 }
 
+.tiktok-main:hover::before {
+    content: "@official_tube";
+}
+
+.tiktok-main::before {
+    content: "Main TikTok";
+}
+
+.tiktok-singing:hover::before {
+    content: "@tube.sings";
+}
+
+.tiktok-singing::before {
+    content: "Singing TikTok";
+}
+
 .smule {
     background-image: linear-gradient(to bottom left, rgba(50, 84, 181, 1), rgba(228, 41, 136, 1));
+}
+
+.smule:hover::before {
+    content: "@Tube";
+}
+
+.smule::before {
+    content: "Smule";
 }
 
 .instagram {
@@ -122,12 +186,36 @@ footer {
     #833ab4,#fd1d1d,#fcb045);
 }
 
+.instagram:hover::before {
+    content: "official_tube.05";
+}
+
+.instagram::before {
+    content: "Instagram";
+}
+
 .steam {
     background-image: linear-gradient(10deg, #66c0f4, #2a475e, #1b2838, #171a21);
 }
 
+.steam:hover::before {
+    content: "76561198854464843";
+}
+
+.steam::before {
+    content: "Steam";
+}
+
 .email {
     background-image: linear-gradient(0deg, #19d6fc, #1e62f1);
+}
+
+.email:hover::before {
+    content: "officialtube.business@gmail.com";
+}
+
+.email::before {
+    content: "Email";
 }
 
 @media (max-width: 800px) {
